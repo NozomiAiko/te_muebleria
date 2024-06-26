@@ -1,39 +1,39 @@
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanProducto.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\InventarioServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\VentaJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\PedidoJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\ProductoServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\DetallePedido.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanPedido.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\VentaServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Usuario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\NonexistentEntityException.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Venta.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\InventarioJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Pedido.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\DetallePedidoServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Cliente.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\ProductoJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanInventario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Inventario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\CategoriaJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanCliente.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\PreexistingEntityException.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\ClienteServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\DetalleInventario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanCategoria.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\PedidoServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\DetallePedidoJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\UsuarioJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanDetallePedido.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanVenta.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Producto.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanUsuario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\IllegalOrphanException.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\bean\BeanDetalleInventario.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\DetalleInventarioServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\CategoriaServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\controller\UsuarioServlet.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\entidades\Categoria.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\ClienteJpaController.java
-C:\Users\999ma\OneDrive\Documentos\NetBeansProjects\te_muebleria\src\main\java\com\emergentes\jpa\DetalleInventarioJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanDetalleInventario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Pedido.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\CategoriaServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\PedidoJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanInventario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanCategoria.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanPedido.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\IllegalOrphanException.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanCliente.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Usuario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\NonexistentEntityException.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\DetallePedido.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\VentaServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanVenta.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\DetalleInventarioJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\DetalleInventario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\ProductoJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\PedidoServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\DetallePedidoJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\DetallePedidoServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\ClienteServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\CategoriaJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Venta.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\ClienteJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\UsuarioJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Cliente.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\DetalleInventarioServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Inventario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\InventarioServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Categoria.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\exceptions\PreexistingEntityException.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanUsuario.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\ProductoServlet.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\entidades\Producto.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\VentaJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanDetallePedido.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\jpa\InventarioJpaController.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\bean\BeanProducto.java
+C:\Users\JAVIER APAZA\Documents\7MO SEMESTRE\INGENIERIA DE SISTEMAS\te_muebleria\src\main\java\com\emergentes\controller\UsuarioServlet.java
