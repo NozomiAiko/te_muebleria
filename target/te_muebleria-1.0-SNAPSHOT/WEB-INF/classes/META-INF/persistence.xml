@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <persistence version="2.2" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
   <persistence-unit name="muebleriaPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+=======
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence           http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+  <persistence-unit name="muebleriaPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.emergentes.entidades.Usuario</class>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     <class>com.emergentes.entidades.Venta</class>
     <class>com.emergentes.entidades.Inventario</class>
     <class>com.emergentes.entidades.Cliente</class>
@@ -10,10 +17,16 @@
     <class>com.emergentes.entidades.DetallePedido</class>
     <class>com.emergentes.entidades.Categoria</class>
     <class>com.emergentes.entidades.Pedido</class>
+<<<<<<< HEAD
     <class>com.emergentes.entidades.Usuario</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/db_muebleria?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+=======
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3309/db_muebleria?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <property name="javax.persistence.jdbc.password" value=""/>

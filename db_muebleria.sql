@@ -2,8 +2,13 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
+<<<<<<< HEAD
 -- Servidor: 127.0.0.1
 -- Tiempo de generación: 27-06-2024 a las 15:54:47
+=======
+-- Servidor: localhost:3309
+-- Tiempo de generación: 26-06-2024 a las 17:59:03
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -180,19 +185,29 @@ CREATE TABLE `usuario` (
   `contraseña` varchar(100) DEFAULT NULL,
   `correo` varchar(100) DEFAULT NULL,
   `direccion` varchar(100) DEFAULT NULL,
+<<<<<<< HEAD
   `telefono_usu` int(11) DEFAULT NULL,
   `rol` varchar(10) DEFAULT 'user'
 ) ;
+=======
+  `telefono_usu` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 
 --
 -- Volcado de datos para la tabla `usuario`
 --
 
+<<<<<<< HEAD
 INSERT INTO `usuario` (`id_usuario`, `nombre_usu`, `contraseña`, `correo`, `direccion`, `telefono_usu`, `rol`) VALUES
 (3001, 'maria josefina', '12345', 'josefina@gmail.com', 'calle alex nro 214', 79546515, 'user'),
 (3002, 'Victor Hugo', '12345', 'rosavictor625@gmail.com', 'calle obaya', 77253201, 'admin'),
 (3003, 'Victor Hugo', '1234', 'rosavictor625@gmail.com', 'calle obaya', 77253201, 'user'),
 (3004, 'Victor Hugo', NULL, 'rosavictor625@gmail.com', 'calle obaya', 77253201, NULL);
+=======
+INSERT INTO `usuario` (`id_usuario`, `nombre_usu`, `contraseña`, `correo`, `direccion`, `telefono_usu`) VALUES
+(3001, 'maria josefina', '12345', 'josefina@gmail.com', 'calle alex nro 214', 79546515);
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 
 -- --------------------------------------------------------
 
@@ -335,7 +350,11 @@ ALTER TABLE `producto`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
+<<<<<<< HEAD
   MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT;
+=======
+  MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3002;
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 
 --
 -- AUTO_INCREMENT de la tabla `venta`

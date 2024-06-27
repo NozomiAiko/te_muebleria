@@ -27,6 +27,10 @@
     <body class="bodyinicio">
         <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
         
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
         <main>
             <section class="main">
                 <!-- texto principal -->

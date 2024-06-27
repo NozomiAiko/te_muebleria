@@ -22,7 +22,11 @@ import javax.validation.constraints.Size;
 
 /**
  *
+<<<<<<< HEAD
  
+=======
+ * @author 999ma
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
  */
 @Entity
 @Table(name = "usuario")
@@ -30,6 +34,7 @@ import javax.validation.constraints.Size;
     @NamedQuery(name = "Usuario.findAll", query = "SELECT u FROM Usuario u"),
     @NamedQuery(name = "Usuario.findByIdUsuario", query = "SELECT u FROM Usuario u WHERE u.idUsuario = :idUsuario"),
     @NamedQuery(name = "Usuario.findByNombreUsu", query = "SELECT u FROM Usuario u WHERE u.nombreUsu = :nombreUsu"),
+<<<<<<< HEAD
     @NamedQuery(name = "Usuario.findByContraseña", query = "SELECT u FROM Usuario u WHERE u.contraseña = :contraseña"),
     @NamedQuery(name = "Usuario.findByCorreo", query = "SELECT u FROM Usuario u WHERE u.correo = :correo"),
     @NamedQuery(name = "Usuario.findByDireccion", query = "SELECT u FROM Usuario u WHERE u.direccion = :direccion"),
@@ -41,6 +46,14 @@ public class Usuario implements Serializable {
     @Column(name = "rol")
     private String rol;
 
+=======
+    @NamedQuery(name = "Usuario.findByContrase\u00f1a", query = "SELECT u FROM Usuario u WHERE u.contrase\u00f1a = :contrase\u00f1a"),
+    @NamedQuery(name = "Usuario.findByCorreo", query = "SELECT u FROM Usuario u WHERE u.correo = :correo"),
+    @NamedQuery(name = "Usuario.findByDireccion", query = "SELECT u FROM Usuario u WHERE u.direccion = :direccion"),
+    @NamedQuery(name = "Usuario.findByTelefonoUsu", query = "SELECT u FROM Usuario u WHERE u.telefonoUsu = :telefonoUsu")})
+public class Usuario implements Serializable {
+
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -51,7 +64,11 @@ public class Usuario implements Serializable {
     @Column(name = "nombre_usu")
     private String nombreUsu;
     @Size(max = 100)
+<<<<<<< HEAD
     @Column(name = "contraseña")
+=======
+    @Column(name = "contrase\u00f1a")
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     private String contraseña;
     @Size(max = 100)
     @Column(name = "correo")
@@ -73,7 +90,10 @@ public class Usuario implements Serializable {
         this.correo="";
         this.direccion="";
         this.telefonoUsu=0;
+<<<<<<< HEAD
         this.rol="";
+=======
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
         ventaList=new ArrayList<Venta>();
         pedidoList= new ArrayList<Pedido>(); 
     }
@@ -170,6 +190,7 @@ public class Usuario implements Serializable {
     public String toString() {
         return "com.emergentes.entidades.Usuario[ idUsuario=" + idUsuario + " ]";
     }
+<<<<<<< HEAD
 
     public String getRol() {
         return rol;
@@ -178,5 +199,7 @@ public class Usuario implements Serializable {
     public void setRol(String rol) {
         this.rol = rol;
     }
+=======
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     
 }

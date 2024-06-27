@@ -10,6 +10,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
+<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
     <body>
         <jsp:include page="WEB-INF/menu_2.jsp"></jsp:include>
@@ -47,5 +48,41 @@
         </div>
     </body>
     <script src="https://cdn.tailwindcss.com"></script>
+=======
+    <body>
+       <br><br>
+    <div >
+       <a href="index.html">VOLVER A INICIO</a>
+        <h1>DETALLE DE INVENTARIO</h1>
+         <a href="DetalleInventarioServlet?action=add" id="btnAdd"> Nuevo Registro</a><br>
+        <table border = "1">
+            <br>
+                <tr id="cabecera">
+                    <th>CODIGO</th>
+                    <th>CODIGO DE INVENTARIO</th>                    
+                    <th>CANTIDAD</th>
+                    <th>PRODUCTO</th>
+                    <th colspan="2">OPCIONES</th>
+                </tr>
+                <%
+               for (DetalleInventario item: detalleInventarios){
+                %>
+                    <tr>
+                        <td><%= item.getIdDetalle()%></td>
+                        <td><%= item.getIdInventario().getIdInventario() %></td>
+                        <td><%= (item.getCdProducto()!= null) ? item.getCdProducto().getNombrePro(): "SIN PRODUCTO" %></td>
+                        <td><%= item.getCantidad()%></td>
+                        <td><%= item.getFechaDet() %></td>
+                        
+                         <td><a id="btnEdit" href="DetalleInventarioServlet?action=edit&id=<%= item.getIdDetalle()%>">EDITAR</a></td>
+                        <td><a id="btnDelete" href="DetalleInventarioServlet?action=delete&id=<%= item.getIdDetalle()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+                    </tr>
+                <%
+                    }
+                %>
+        </table>
+    </div>
+    </body>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 </html>
 

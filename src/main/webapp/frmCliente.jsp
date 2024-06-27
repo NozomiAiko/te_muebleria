@@ -8,6 +8,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>FORMULARIO</title>
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body class="bg-gray-100">
@@ -45,3 +46,38 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </body>
 </html>
+=======
+    </head>
+    <body>
+        <br><br><br>
+        <h1>REGISTRO DE CLIENTES</h1>
+        
+        <form action="ClienteServlet" method="post">
+            
+            <div >
+                <input type="hidden" name="idCliente" value="<%= cliente.getIdCliente() %>">
+            </div>   
+            <div  >
+                <label  >Nombre del cliente:</label><br><br>
+                <input type="text"  value="<%= cliente.getNombreCli() %>" name="nombre">
+            </div>
+            <div  >
+                <label  >Correo electronico:</label><br><br>
+                <input type="email"  value="<%= cliente.getEmail() %>" name="email">
+            </div>
+            <div  >
+                <label  >Direccion de vivienda:</label><br><br>
+                <input type="text"  value="<%= cliente.getDireccionCli() %>" name="direccion">
+            </div>
+            <div  >
+                <label  >Numero de celular:</label><br><br>
+                <input type="number"  value="<%= cliente.getTelefono() %>" name="telefono">
+            </div>
+            </div><br><br>
+            <button type="submit" id="btnSave">GUARDAR</button>
+        </form>
+        
+    </body>
+</html>
+
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909

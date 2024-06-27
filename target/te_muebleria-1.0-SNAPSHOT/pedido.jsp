@@ -29,6 +29,7 @@
         <link rel="shortcut icon" href="assets/images/logotitulo.png">
         <meta name="description" content="Es una empresa que ofrece muebles de madera para el hogar, tiene diseños exclusivos y muebles hechos a medida.">
         <meta name="keywords" content="muebles, madera, diseños, hogar, armarios, roperos, alacenas, estantes, ofertas, chile, inicio">
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -68,6 +69,48 @@
                     </table>
                     <script src="https://cdn.tailwindcss.com"></script>
         </div>
+=======
+  
+    </head>
+    <body>
+        <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
+       <br>
+    <div >
+       <a href="datos.jsp">VOLVER A INICIO</a>
+       <center>
+        <h1>LISTADO DE PEDIDOS</h1>
+         <a href="PedidoServlet?action=add" id="btnAdd"> Registrar nuevo pedido</a><br>
+        <table border = "1">
+            <br>
+                <tr id="cabecera">
+                    <th>CODIGO</th>
+                    <th>CLIENTE</th>
+                    <th>VENDEDOR</th>
+                    <th>TOTAL</th>
+                    <th>FECHA DE VENTA</th>
+                    <th>ESTADO</th>
+                    <th colspan="2">OPCIONES</th>
+                </tr>
+                <%
+               for (Pedido item: pedidos){
+                %>
+                    <tr>
+                        <td><%= item.getIdPedido()%></td>
+                        <td><%= (item.getCodCliente()!= null) ? item.getCodCliente().getNombreCli(): "Sin categoría" %></td>
+                        <td><%= (item.getCodUsuario()!= null) ? item.getCodUsuario().getNombreUsu(): "Sin categoría" %></td>
+                        <td><%= item.getTotal()%></td>
+                        <td><%= item.getFecha()%></td>  
+                        <td><%= (item.getEstado()== 0) ? "PENDIENTE" : "ENTREGADO" %></td>
+                        <td><a id="btnEdit" href="PedidoServlet?action=edit&id=<%= item.getIdPedido()%>">EDITAR</a></td>
+                        <td><a id="btnDelete" href="PedidoServlet?action=delete&id=<%= item.getIdPedido()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+                    </tr>
+                <%
+                    }
+                %>
+        </table>
+        </center>
+    </div>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     </body>
 </html>
 

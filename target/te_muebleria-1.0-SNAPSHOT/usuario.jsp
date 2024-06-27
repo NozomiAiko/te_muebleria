@@ -27,6 +27,7 @@
         <link rel="shortcut icon" href="assets/images/logotitulo.png">
         <meta name="description" content="Es una empresa que ofrece muebles de madera para el hogar, tiene diseños exclusivos y muebles hechos a medida.">
         <meta name="keywords" content="muebles, madera, diseños, hogar, armarios, roperos, alacenas, estantes, ofertas, chile, inicio">
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -69,4 +70,46 @@
         </div>
     </body>
     <script src="https://cdn.tailwindcss.com"></script>
+=======
+  
+    </head>
+    <body>
+        <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
+        <br>
+        <div >
+            <a href="datos.jsp">VOLVER A INICIO</a>
+            <center>
+            <h1>LISTADO DE USUARIOS</h1>
+            <a href="UsuarioServlet?action=add" id="btnAdd"> Nueva Usuario</a><br>
+            <table border = "1">
+                <tr id="cabecera">
+                    <th>ID</th>
+                    <th>NOMBRE</th>
+                    <th>CONTRASEÑA</th>
+                    <th>CORREO ELECTRONICO</th>
+                    <th>DIRECCION</th>
+                    <th>TELEFONO</th>
+                    <th colspan="2">OPCIONES</th>
+                </tr>
+                <%
+               for (Usuario item: usuarios){
+                %>
+                <tr>
+                    <td><%= item.getIdUsuario()%></td>
+                    <td><%= item.getNombreUsu()%></td>
+                    <td><%= item.getContraseña()%></td>
+                    <td><%= item.getCorreo()%></td>
+                    <td><%= item.getDireccion()%></td>
+                    <td><%= item.getTelefonoUsu() %></td>
+                    <td><a id="btnEdit" href="UsuarioServlet?action=edit&id=<%= item.getIdUsuario()%>">EDITAR</a></td>
+                    <td><a id="btnDelete" href="UsuarioServlet?action=delete&id=<%= item.getIdUsuario()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+                </tr>
+                <%
+                    }
+                %>
+            </table>
+            </center>
+        </div>
+    </body>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 </html>

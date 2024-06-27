@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
+<<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
     <body>
         <jsp:include page="WEB-INF/menu_2.jsp"></jsp:include>
@@ -21,11 +22,23 @@
             <a href="DetallePedidoServlet?action=add" id="btnAdd" class="btn btn-warning"> Nuevo Registro</a><br>
             <div class="overflow-x-auto">
                 <table class="table">
+=======
+    <body>
+       <br><br>
+    <div >
+       <a href="index.html">VOLVER A INICIO</a>
+        <h1>DETALLE DE PEDIDO</h1>
+         <a href="DetallePedidoServlet?action=add" id="btnAdd"> Nuevo Registro</a><br>
+        <table border = "1">
+            <br>
+                <tr id="cabecera">
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
                     <th>CODIGO</th>
                     <th>CODIGO PEDIDO</th>
                     <th>PRODUCTO</th>
                     <th>CANTIDAD</th>
                     <th colspan="2">OPCIONES</th>
+<<<<<<< HEAD
                     </tr>
                     <%
                         for (DetallePedido item : detallePedidos) {
@@ -47,4 +60,25 @@
         </div>
     </body>
     <script src="https://cdn.tailwindcss.com"></script>
+=======
+                </tr>
+                <%
+               for (DetallePedido item: detallePedidos){
+                %>
+                    <tr>
+                        <td><%= item.getIdDetallePedido()%></td>
+                        <td><%= item.getIdPedido().getIdPedido() %></td>
+                        <td><%= (item.getCodProducto()!= null) ? item.getCodProducto().getNombrePro(): "SIN PRODUCTO" %></td>
+                        <td><%= item.getCantidad()%></td>
+                        
+                         <td><a id="btnEdit" href="DetallePedidoServlet?action=edit&id=<%= item.getIdDetallePedido()%>">EDITAR</a></td>
+                        <td><a id="btnDelete" href="DetallePedidoServlet?action=delete&id=<%= item.getIdDetallePedido()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+                    </tr>
+                <%
+                    }
+                %>
+        </table>
+    </div>
+    </body>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 </html>

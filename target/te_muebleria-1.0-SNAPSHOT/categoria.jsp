@@ -25,12 +25,16 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <!-- logo en mi titulo -->
         <link rel="shortcut icon" href="assets/images/logotitulo.png">
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
+=======
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
         <meta name="description" content="Es una empresa que ofrece muebles de madera para el hogar, tiene diseños exclusivos y muebles hechos a medida.">
         <meta name="keywords" content="muebles, madera, diseños, hogar, armarios, roperos, alacenas, estantes, ofertas, chile, inicio">
   
     </head>
     <body>
+<<<<<<< HEAD
       <jsp:include page="WEB-INF/menu_2.jsp"></jsp:include>
         <br>
         <div class="container mx-auto p-4" >
@@ -40,6 +44,17 @@
             <a href="CategoriaServlet?action=add" id="btnAdd" class="btn btn-warning"> Nueva Categoria</a><br>
             <div class="overflow-x-auto">
                 <table class="table">
+=======
+        <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
+        <br>
+        <div >
+            <a href="datos.jsp">VOLVER A INICIO</a>
+            <center>
+            <h1>LISTADO DE CATEGORIAS</h1>
+            <a href="CategoriaServlet?action=add" id="btnAdd"> Nueva Categoria</a><br>
+            <table border = "1">
+                <tr id="cabecera">
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
                     <th>ID</th>
                     <th>Nombre</th>
                     <th>Descripcion</th>
@@ -52,14 +67,25 @@
                     <td><%= item.getIdCategoria()%></td>
                     <td><%= item.getNombreCat()%></td>
                     <td><%= item.getDescripcionCat()%></td>
+<<<<<<< HEAD
                     <td><a id="btnEdit" href="CategoriaServlet?action=edit&id=<%= item.getIdCategoria()%>" class="btn btn-info">EDITAR</a></td>
                     <td><a id="btnDelete" href="CategoriaServlet?action=delete&id=<%= item.getIdCategoria()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))" class="btn btn-error">ELIMINAR</a></td>
+=======
+                    <td><a id="btnEdit" href="CategoriaServlet?action=edit&id=<%= item.getIdCategoria()%>">EDITAR</a></td>
+                    <td><a id="btnDelete" href="CategoriaServlet?action=delete&id=<%= item.getIdCategoria()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
                 </tr>
                 <%
                     }
                 %>
             </table>
+<<<<<<< HEAD
         </div>
     </body>
     <script src="https://cdn.tailwindcss.com"></script>
+=======
+            </center>
+        </div>
+    </body>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 </html>

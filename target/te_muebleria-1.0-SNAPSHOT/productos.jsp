@@ -25,7 +25,11 @@
 </head>
 
 <body>
+<<<<<<< HEAD
    <jsp:include page="WEB-INF/menu_2.jsp"></jsp:include>
+=======
+    <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
     <main>
         <div class="containerproductos">
             <a class="relative" href="#" title="">

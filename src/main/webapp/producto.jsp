@@ -28,6 +28,7 @@
         <link rel="shortcut icon" href="assets/images/logotitulo.png">
         <meta name="description" content="Es una empresa que ofrece muebles de madera para el hogar, tiene diseños exclusivos y muebles hechos a medida.">
         <meta name="keywords" content="muebles, madera, diseños, hogar, armarios, roperos, alacenas, estantes, ofertas, chile, inicio">
+<<<<<<< HEAD
         <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.8/dist/full.min.css" rel="stylesheet" type="text/css" />
   
     </head>
@@ -46,6 +47,25 @@
                     <th>PRODUCTO</th>
                     <th>DESCRIPCION</th>
                     <th>PRECIO</th>
+=======
+  
+    </head>
+    <body>
+          <jsp:include page="WEB-INF/menu.jsp"></jsp:include>
+      
+    <div >
+        <br>
+       <a href="datos.jsp">VOLVER A INICIO</a>
+       <center>
+        <h1>LISTADO DE PRODUCTOS</h1>
+         <a href="ProductoServlet?action=add" id="btnAdd"> Nuevo Libro</a><br>
+        <table border = "1">
+            <br>
+                <tr id="cabecera">
+                    <th>CODIGO</th>
+                    <th>PRODUCTO</th>
+                    <th>DESCRIPCION</th>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
                     <th>CATEGORIA</th>
                     <th colspan="2">OPCIONES</th>
                 </tr>
@@ -56,17 +76,29 @@
                         <td><%= item.getIdProducto()%></td>
                         <td><%= item.getNombrePro()%></td>
                         <td><%= item.getDescripcionPro()%></td>
+<<<<<<< HEAD
                         <td><%= item.getPrecioUnitario()%></td>
                         <td><%= (item.getIdCategoria()!= null) ? item.getIdCategoria().getNombreCat(): "Sin categoría" %></td>
                         <td><a id="btnEdit" href="ProductoServlet?action=edit&id=<%= item.getIdProducto()%>" class="btn btn-info" >EDITAR</a></td>
                         <td><a id="btnDelete" href="ProductoServlet?action=delete&id=<%= item.getIdProducto()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))" class="btn btn-error">ELIMINAR</a></td>
+=======
+                        <td><%= (item.getIdCategoria()!= null) ? item.getIdCategoria().getNombreCat(): "Sin categoría" %></td>
+                        <td><a id="btnEdit" href="ProductoServlet?action=edit&id=<%= item.getIdProducto()%>">EDITAR</a></td>
+                        <td><a id="btnDelete" href="ProductoServlet?action=delete&id=<%= item.getIdProducto()%>" onclick="return(confirm('SEGURO QUE DESEA ELIMINAR ESTE REGISTRO?'))">ELIMINAR</a></td>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
                     </tr>
                 <%
                     }
                 %>
         </table>
+<<<<<<< HEAD
 
     </div>
     </body>
     <script src="https://cdn.tailwindcss.com"></script>
+=======
+        </center>
+    </div>
+    </body>
+>>>>>>> 6de98de038e78f12fc33a55da64efc7007d73909
 </html>
